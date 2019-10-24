@@ -4,7 +4,15 @@
 # Author: AppScale Team <support@appscale.com>
 
 HOME="$(pwd)"
-sudo -s
+echo "Path origen: $HOME"
+
+whoami
+sudo -i -u root bash << EOF
+echo "In"
+whoami
+EOF
+echo "Out"
+whoami
 
 pwd
 
