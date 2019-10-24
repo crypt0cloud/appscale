@@ -4,7 +4,7 @@
 # Author: AppScale Team <support@appscale.com>
 
 HOME="$(pwd)"
-sudo -i
+sudo -s
 
 ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -P ""
 
