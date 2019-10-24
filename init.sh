@@ -6,6 +6,8 @@
 HOME="$(pwd)"
 sudo -s
 
+pwd
+
 ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -P ""
 
 echo "$HOME/.ssh/id_rsa.pub" >> /root/.ssh/authorized_keys
