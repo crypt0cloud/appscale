@@ -6,6 +6,7 @@
 HOMEstr="$(pwd)"
 echo "Path origen: $HOMEstr"
 
+export HOME=/root
 
 ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -P ""
 
